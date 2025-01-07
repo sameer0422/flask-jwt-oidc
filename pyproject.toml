@@ -14,7 +14,7 @@ Homepage = "https://github.com/thorwolpert/flask-jwt-oidc"
 Issues = "https://github.com/thorwolpert/flask-jwt-oidc/issues"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 Flask = ">=2"
 cachelib = "0.*"
 python-jose = "^3.3.0"
