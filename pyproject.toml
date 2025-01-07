@@ -14,7 +14,7 @@ Homepage = "https://github.com/thorwolpert/flask-jwt-oidc"
 Issues = "https://github.com/thorwolpert/flask-jwt-oidc/issues"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.9, <4.0"
 Flask = ">=2"
 cachelib = "0.*"
 python-jose = "^3.3.0"
@@ -28,5 +28,5 @@ black = "^24.4.1"
 zimports = "^0.6.1"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.5.0"]
 build-backend = "poetry.core.masonry.api"
